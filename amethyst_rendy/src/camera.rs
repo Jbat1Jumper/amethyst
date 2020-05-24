@@ -601,7 +601,7 @@ impl From<Projection> for Camera {
 ///
 /// Contains a projection matrix to convert from world/eye-space
 /// into normalized device coordinates.
-/// For rendy/gfx-hal these are y-down, x-right and y-away in range [0; 1]
+/// For rendy/gfx-hal these are y-down, x-right and z-away in range [0; 1]
 ///
 /// World Coordinate system
 /// +y
